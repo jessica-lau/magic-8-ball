@@ -1,0 +1,13 @@
+// OBJECT Magic 8 - ball
+// PROPERTY list of answers = ["Most likely", "Yes, definitely", "Don't count on it", "Cannot predict now", "Ask again later", "Maybe"]
+
+// FUNCTION Ask magic 8 - ball a question
+// INPUT Ask the magic 8 - ball a question, shake the ball, magic 8 - ball picks answer from list of answers
+// OUTPUT Magic 8 - ball answer
+// STOP FUNCTION
+
+// RUN FUNCTION Ask magic 8 - ball a question
+// INPUT "Will I become good at cooking?"
+
+var magic8Ball = {};
+    magic8Ball.listOfAnswers = null;
