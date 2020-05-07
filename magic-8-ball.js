@@ -1,3 +1,4 @@
+//PSEUDOCODE
 // OBJECT Magic 8 - ball
 // PROPERTY list of answers = ["Most likely", "Yes, definitely", "Don't count on it", "Cannot predict now", "Ask again later", "Maybe"]
 
@@ -10,4 +11,13 @@
 // INPUT "Will I become good at cooking?"
 
 var magic8Ball = {};
-    magic8Ball.listOfAnswers = null;
+magic8Ball.listOfAnswers = ["Most likely", "Yes, definitely", "Don't count on it", "Cannot predict now", "Ask again later", "Maybe"];
+magic8Ball.askQuestion = function (question) {
+    var randomAnswer = Math.floor(Math.random() * this.listOfAnswers.length);
+    var magic8BallAnswer = this.listOfAnswers[randomAnswer];
+
+    console.log(question);
+    console.log(magic8BallAnswer);
+};
+
+magic8Ball.askQuestion("Will I learn to cook?");
