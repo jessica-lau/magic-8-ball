@@ -10,6 +10,7 @@
 // RUN FUNCTION Ask magic 8 - ball a question
 // INPUT "Will I become good at cooking?"
 
+$(document).ready(function() {
 var magic8Ball = {};
 magic8Ball.listOfAnswers = ["Most likely", "Yes, definitely", "Don't count on it", "Cannot predict now", "Ask again later", "Maybe"];
 magic8Ball.askQuestion = function (question) {
@@ -20,4 +21,6 @@ magic8Ball.askQuestion = function (question) {
     console.log(magic8BallAnswer);
 };
 
-magic8Ball.askQuestion("Will I learn to cook?");
+//magic8Ball.askQuestion("Will I learn to cook?");
+
+});
