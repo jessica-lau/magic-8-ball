@@ -24,7 +24,8 @@ body {
   margin-top:-60px;
   margin-left:-65px;
   font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
-  color: #222;
+  color: #f16059;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -58,3 +59,4 @@ footer p {
   text-transform: uppercase;
   font-size: 12px;
 }
+

@@ -17,6 +17,8 @@ magic8Ball.askQuestion = function (question) {
     var randomAnswer = Math.floor(Math.random() * this.listOfAnswers.length);
     var magic8BallAnswer = this.listOfAnswers[randomAnswer];
 
+    $("#answer").text(magic8BallAnswer);
+    
     console.log(question);
     console.log(magic8BallAnswer);
 };
