@@ -21,6 +21,11 @@ magic8Ball.askQuestion = function (question) {
     console.log(magic8BallAnswer);
 };
 
-//magic8Ball.askQuestion("Will I learn to cook?");
+var onClick = function() {
+	var question = prompt("Ask me a question.");
+	magic8Ball.askQuestion(question);
+};
+
+$("#questionButton").click(onClick);
 
 });
